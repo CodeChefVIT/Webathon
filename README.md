@@ -30,4 +30,6 @@ I'm glad, you're here! Let's get connected :)
 Invite me to connect on [LinkedIn](https://www.linkedin.com/in/vinitshahdeo/).
 
 
-[![GitHub license](https://img.shields.io/github/license/vinitshahdeo/Webathon.svg?style=social)](https://github.com/vinitshahdeo/Webathon/blob/master/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/vinitshahdeo/Webathon.svg?style=social)](https://github.com/vinitshahdeo/Webathon/blob/master/LICENSE) 
+[![GitHub forks](https://img.shields.io/github/forks/vinitshahdeo/Webathon.svg?style=social)](https://github.com/vinitshahdeo/Webathon/network)
+
