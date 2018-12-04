@@ -12,17 +12,20 @@
 
 CodeChef is a technical chapter in VIT University Vellore that helps students all over the campus to improve their coding skills.
 
-> Like **[CodeChef](https://www.facebook.com/codechefvituniversity/)** VIT Chpater [Page](https://www.facebook.com/codechefvituniversity/) on [Facebook](https://www.facebook.com/codechefvituniversity/) to Stay tuned!
+> Like **[CodeChef](https://www.facebook.com/codechefvituniversity/)** VIT Chapter [Page](https://www.facebook.com/codechefvituniversity/) on [Facebook](https://www.facebook.com/codechefvituniversity/) to Stay tuned!
 
 ### Related Repos
 
-- [CodeChef VIT](https://github.com/vinitshahdeo/CodeChefVIT)
+- **[CodeChef VIT](https://github.com/vinitshahdeo/CodeChefVIT)**
 
-- [CodeCombat](https://github.com/vinitshahdeo/CodeCombat)
+- **[CodeCombat](https://github.com/vinitshahdeo/CodeCombat)**
 
-- [Cook Off](https://github.com/vinitshahdeo/CookOff-4.0)
+- **[Cook Off](https://github.com/vinitshahdeo/CookOff-4.0)**
 
 ### Thanks!
 
 I'm glad, you're here! Let's get connected :)
 Invite me to connect on [LinkedIn](https://www.linkedin.com/in/vinitshahdeo/).
+
+
+[![GitHub license](https://img.shields.io/github/license/vinitshahdeo/Webathon.svg?style=social)](https://github.com/vinitshahdeo/Webathon/blob/master/LICENSE)
