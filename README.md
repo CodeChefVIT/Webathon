@@ -2,7 +2,7 @@
 
 #### Portal for **Webathon** for core members of **[CodeChef](https://www.facebook.com/codechefvituniversity/)** - Student Chapter of [VIT University](http://vit.ac.in/) Vellore
 
-[![CodeChef VIT](https://img.shields.io/badge/codechef-VIT-teal.svg)](https://www.facebook.com/codechefvituniversity/) [![STUDENT CHAPTER](https://img.shields.io/badge/student-chapter-red.svg)](https://vinitshahdeo.github.io/CodeChefVIT/) [![HACKATHON](https://img.shields.io/badge/Internal-Hackathon-blue.svg)](https://vinitshahdeo.github.io/Webathon/)
+[![CodeChef VIT](https://img.shields.io/badge/CodeChef-VIT-teal.svg)](https://www.facebook.com/codechefvituniversity/) [![STUDENT CHAPTER](https://img.shields.io/badge/Student-Chapter-red.svg)](https://vinitshahdeo.github.io/CodeChefVIT/) [![HACKATHON](https://img.shields.io/badge/Internal-Hackathon-blue.svg)](https://vinitshahdeo.github.io/Webathon/)
 
 > #### [Click](https://vinitshahdeo.github.io/Webathon/) to view landing page!
 
@@ -25,6 +25,8 @@ CodeChef is a technical chapter in VIT University Vellore that helps students al
 ### Thanks!
 
 I'm glad, you're here! Let's get connected :)
+
+
 Invite me to connect on [LinkedIn](https://www.linkedin.com/in/vinitshahdeo/).
 
 
