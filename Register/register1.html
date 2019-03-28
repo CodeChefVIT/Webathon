@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>WEBATHON | CodeChef - VIT University Vellore</title>
+		<meta name="keywords" content="Codechef, vit, chapter, incore, webathon" />
+		<meta name="author" content="Vinit Shahdeo" />
+        
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" type="text/css" href="css/cs-select.css" />
+		<link rel="stylesheet" type="text/css" href="css/cs-skin-boxes.css" />
+		<script src="js/modernizr.custom.js"></script>
+        
+        <link rel="shortcut icon" type="image/ico" href="./favicon.ico"/>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+        
+	</head>
+	<body>
+        <script>
+          
+            function ValidateEmail(inputText1,inputText2)  
+            {  
+            var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+            var phoneno = /^\d{10}$/;
+                if(inputText1.value.match(mailformat)&&inputText2.value.match(phoneno))  
+                    {  
+//                        document.myform.q2.focus();
+                        //var link = "#openModal";
+                        var a = document.getElementById('fs-anchor');
+                        //a.href = link;
+                        document.myform.submit();
+                        return true;
+
+                    }  
+                else  
+                    {  
+                        if(!(inputText1.value.match(mailformat)))
+                        {
+                            alert("You have entered an invalid email address!");
+                            document.myform.q6.focus(); 
+                        }
+                            
+                        else
+                        {
+                            alert("You have entered an invalid phone number!");
+                            document.myform.q7.focus();  
+                        }
+                            
+                        
+                        return false;  
+                    }  
+            }
+             
+        </script>
+        
+		<div class="container">
+			<div id="openModal1" class="modalDialog">
+					
+<!--					<a href="#close" title="Close" class="close">X</a>-->
+					<div id="duplicate">
+								
+								<p>Sorry! You made a <strong>duplicate entry.</strong> Try again!</p>
+									<!--<a href="index.html" text-decoration="none">Check out more</a>
+							--></div>
+					<div id="imgdiv">
+						<a href="index.html">
+					                <img id="modimg" src="img/codechef.png"/>
+					            </a>
+							</div><!--<div id="line"/>-->
+
+							</div>
+
+			<div id="openModal2" class="modalDialog">
+					
+<!--					<a href="#close" title="Close" class="close">X</a>-->
+					<div id="full">
+								
+								<p>Sorry! This team seems to be <strong>full.</strong>Try some other team!</p>
+									<!--<a href="index.html" text-decoration="none">Check out more</a>
+							--></div>
+					<div id="imgdiv">
+						<a href="index.html">
+					                <img id="modimg" src="img/codechef.png"/>
+					            </a>
+							</div><!--<div id="line"/>-->
+
+							</div>
+			<span id="full"></span>
+
+			<div class="fs-form-wrap" id="fs-form-wrap">
+				<div class="fs-title">
+					<!--<h1>Project Registration</h1>-->
+                    <img src="img/codechef.png" style="width:17%; margin-top:-35px;">
+				</div>
+				<form name="myform" id="myform" class="fs-form fs-form-full" autocomplete="off" action="reg1.php" method="POST">
+					<input type="hidden" name="mode" value="1" />
+					<ol class="fs-fields">
+                        
+                        
+						<li>
+							<label class="fs-field-label fs-anim-upper" for="q1" data-info="No nicknames please.">What's your name?</label>
+							<input class="fs-anim-lower" id="q1" name="q1" type="text" placeholder="Vinit Shahdeo" required/>
+						</li>
+                        
+                        
+                        <li>
+							<label class="fs-field-label fs-anim-upper" for="q2" data-info="No Aadhaar/PAN Card number. VIT University Registration Number Only.">Registration Number?</label>
+							<input class="fs-anim-lower" id="q2" name="q2" type="text" placeholder="15BIT0335" required/>
+						</li>
+
+						 <li>
+							<label class="fs-field-label fs-anim-upper" for="q3" data-info="Number of forks matters dude!">Your GitHub username?</label>
+							<input class="fs-anim-lower" id="q3" name="q3" type="text" placeholder="vinitshahdeo" required/>
+						</li>
+                        
+                         <li>
+							<label class="fs-field-label fs-anim-upper" for="q4" data-info="Don't say that you don't have account on CodeChef.">Your CodeChef username?</label>
+							<input class="fs-anim-lower" id="q4" name="q4" type="text" placeholder="vinitshahdeo" required/>
+						</li>
+                        
+                         <li>
+							<label class="fs-field-label fs-anim-upper" for="q5" data-info="Do you smoke code?">Your HackerRank username?</label>
+							<input class="fs-anim-lower" id="q5" name="q5" type="text" placeholder="vinitshahdeo" required/>
+						</li>
+                        
+                        
+						<li>
+							<label class="fs-field-label fs-anim-upper" for="q6" data-info="Chill! No spam mails will be sent. ">What's your email address?</label>
+							<input class="fs-anim-lower" id="q6" name="q6" type="email" placeholder="vinitshahdeo@gmail.com" required/>
+						</li>
+                        
+                        <li>
+							<label class="fs-field-label fs-anim-upper" for="q7">Your mobile number here:</label>
+							<input class="fs-mark fs-anim-lower" id="q7" name="q7" type="text" placeholder="Just your 10 digits." required>
+						</li>
+                       
+                        
+                        
+						<li>
+							<label class="fs-field-label fs-anim-upper" for="q8">What are your achievements?</label>
+							<textarea class="fs-anim-lower" id="q8" name="q8" placeholder="Brag about yourself. Be creative!" required></textarea>
+						</li>
+						
+                        
+                        <li data-input-trigger>
+							<label class="fs-field-label fs-anim-upper" for="q9" data-info="Let us know your area of interest!">Which domain would you like to work on?</label>
+							<div class="fs-radio-group fs-radio-custom clearfix fs-anim-lower" required>
+								<span><input id="q9b" name="q9" type="radio" value="Web Development"/><label for="q9b" class="radio-security">Web Development</label></span>
+								<span><input id="q9c" name="q9" type="radio" value="App Development"/><label for="q9c" class="radio-education">App Development</label></span>
+								<span><input id="q9a" name="q9" type="radio" value="Data Analytics"/><label for="q9a" class="radio-music">Data Analytics</label></span>
+                                <span><input id="q9d" name="q9" type="radio" value="Coding"/><label for="q9d" class="radio-health">Competitve Coding</label></span>
+                                <span><input id="q9e" name="q9" type="radio" value="IoT"/><label for="q9e" class="radio-social">Internet of things</label></span>
+                                <span><input id="q9f" name="q9" type="radio" value="3d Modeling"/><label for="q9f" class="radio-ar">3D Modeling</label></span>
+                                <span><input id="q9g" name="q9" type="radio" value="Others"/><label for="q9g" class="radio-mix">Others</label></span>
+							</div>
+						</li>
+                        
+<!--                        <li>
+							<label class="fs-field-label fs-anim-upper" for="q8" data-info="Each team can have a maximum of 5 people. Individuals are also welcome.">Number of participants in your team?</label>
+							<input class="fs-mark fs-anim-lower" id="q8" name="q8" type="number" min="1" max="5" required>
+						</li>
+                        -->
+                        
+                        
+						<li>
+							<label class="fs-field-label fs-anim-upper" for="q10">What are your skillsets?</label>
+							<textarea class="fs-anim-lower" id="q10" name="q10" placeholder="Describe here." required></textarea>
+						</li>
+                        
+                        <li>
+							<label class="fs-field-label fs-anim-upper" for="q11" data-info="Be Clear and Concise!">Suggest a project idea?</label>
+							<textarea class="fs-anim-lower" id="q11" name="q11" type="text" placeholder="Umm? Pitch an idea!" required></textarea>
+						</li>
+                        
+                        <li>
+							<label class="fs-field-label fs-anim-upper" for="q12" data-info="Mention the domains you're learning or you'll be learning.">What are you planning to learn now?</label>
+							<textarea class="fs-anim-lower" id="q12" name="q12" placeholder="I am learning Machine Learning." required></textarea>
+						</li>
+                        
+                        
+        				 <li>
+							<label class="fs-field-label fs-anim-upper" for="q13" data-info="Please be brief. And mention any one idea.">Have you attended a hack before? If yes, tell us what you worked on.</label>
+							<textarea class="fs-anim-lower" id="q13" name="q13" placeholder="Describe here. Don't write too much, please." required></textarea>
+						</li>
+                        
+                    
+					</ol>
+				<a href="javascript:void(0)" type="submit" class="fs-submit" id="fs-anchor" onclick="ValidateEmail(document.myform.q6,document.myform.q7)">All good!</a>
+					 	 	
+					</form><!-- /fs-fields -->
+					<!--<button class="open-modal">All good!</button>-->
+				 
+				<div id="openModal" class="modalDialog">
+					
+<!--					<a href="#close" title="Close" class="close">X</a>-->
+					<div id="thankyou">
+								
+                        <p>Cool! Now it's time to start. Kindly <a href="#" text-decoration="none">download</a> the problem statement. Good Luck :) </p>
+								</div>
+					<div id="imgdiv">
+						<a href="https://github.com/vinitshahdeo/Webathon">
+					                <img id="modimg" src="img/codechef.png"/>
+					            </a>
+							</div><!--<div id="line"/>-->
+
+							</div>
+                <div id="openModalApp" class="modalDialog">
+					
+<!--					<a href="#close" title="Close" class="close">X</a>-->
+					<div id="thankyou">
+								
+                        <p>Cool! Now it's time to start. Create an Android App! <a href="#" text-decoration="none">Click here!</a> Good Luck :) </p>
+								</div>
+					<div id="imgdiv">
+						<a href="https://github.com/vinitshahdeo/Webathon">
+					                <img id="modimg" src="img/codechef.png"/>
+					            </a>
+							</div><!--<div id="line"/>-->
+
+							</div>
+                
+                <div id="openModalCode" class="modalDialog">
+					
+<!--					<a href="#close" title="Close" class="close">X</a>-->
+					<div id="thankyou">
+								
+                        <p>Cool! Let's smoke the code. <a href="http://hackerrank.com/lets-smoke-code/" >Click here!</a>  Good Luck :) </p>
+								</div>
+					<div id="imgdiv">
+						<a href="https://github.com/vinitshahdeo/Webathon">
+					                <img id="modimg" src="img/codechef.png"/>
+					            </a>
+							</div><!--<div id="line"/>-->
+
+							</div>
+
+                <div id="openModalIoT" class="modalDialog">
+					
+<!--					<a href="#close" title="Close" class="close">X</a>-->
+					<div id="thankyou">
+								
+                        <p>Cool! Let's build something bigger. <a href="#" text-decoration="none">Click here</a>  to download your problem statement. Good Luck :) </p>
+								</div>
+					<div id="imgdiv">
+						<a href="https://github.com/vinitshahdeo/Webathon">
+					                <img id="modimg" src="img/codechef.png"/>
+					            </a>
+							</div><!--<div id="line"/>-->
+
+							</div>
+                
+			
+				<!-- /fs-form -->
+			</div><!-- /fs-form-wrap -->
+
+
+		</div>
+
+		<!--<script src="js/jquery-ui.js"></script>
+		<script src="js/jquery-ui.min.js"></script>-->
+		<script src="js/classie.js"></script>
+		<script src="js/selectFx.js"></script>
+		<script src="js/fullscreenForm.js"></script>
+		<!--<script>
+		$(document).ready(function () {
+    var modal = document.getElementById('openModal');
+    $('.open-modal').on('click', function () {
+    $(modal).dialog();
+    });
+});
+		</script>-->
+		<script>
+			(function() {
+				var formWrap = document.getElementById( 'fs-form-wrap' );
+
+				[].slice.call( document.querySelectorAll( 'select.cs-select' ) ).forEach( function(el) {	
+					new SelectFx( el, {
+						stickyPlaceholder: false,
+						onChange: function(val){
+							document.querySelector('span.cs-placeholder').style.backgroundColor = val;
+						}
+					});
+				} );
+                
+               new FForm( formWrap, {
+					onReview : function() {
+						classie.add( document.body, 'overview' );
+					}
+				} );
+			})();</script>
+
+                    
+
+	
+	</body>
+</html>
